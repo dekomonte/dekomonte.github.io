@@ -14,7 +14,7 @@
     --border-color: #99999960;
     --bio-gb-color: #363636;
     --bio--border-color: #0a0a0a;
-    --about-bg-color: #696969;
+    --about-bg-color: #222222;
 }
 
 /*Gerais*/
@@ -170,7 +170,7 @@
 
 #skills-box {
     flex: 1 1 33%;
-    max-width: 33%;
+    max-width: auto;
     margin-bottom: 35px;
 }
 
@@ -183,7 +183,7 @@
 }
 
 #skills-box i {
-    font-size: 100px;
+    font-size: 70px;
     margin-right: 10px;
 }
 
