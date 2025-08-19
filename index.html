@@ -1,91 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Andressa Monteiro</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <!--Devicon-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <!--CSS do Projeto-->
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Andressa Monteiro</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <main id="container">
+  <main id="container">
 
-        <!--Barra lateral esquerda-->
-        <aside id="bio-container">
-            <!--<h2>Andressa Monteiro</h2>-->
-            <img id="bio-img" src="img/foto_perfil_sem_fundo.JPG" alt="Andressa Monteiro">
-            <p>Olá, meu apelido é dekomonte!</p>
-            <p id="welcome-text">Seja Bem-Vindo!</p>
-            <ul id="social-container">
-                <li><a href="https://github.com/dekomonte/" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a href="https://www.linkedin.com/in/andressa-sena-a8b26620b/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <!--Copiar a linha de cima pra colocar mais links-->
-            </ul>
-            <div id="email-container">
-                <ion-icon name="mail-outline"></ion-icon><a href="mailto:andressammsena@gmail.com">andressammsena@gmail.com</a>
-            </div>
-        </aside>
+    <!-- Sidebar -->
+    <aside id="bio-container">
+      <img id="bio-img" src="img/foto_perfil_sem_fundo.JPG" alt="Foto de Andressa Monteiro">
+      <p class="nickname">Olá, meu apelido é <span class="highlight">dekomonte</span>!</p>
+      <p id="welcome-text">Seja Bem-Vindo!</p>
 
-        <!--Parte restante da direita-->
-        <section id="about-container">
-            <h1 id="name">Andressa Monteiro</h1>
-            <p id="title">Sobre mim</p>
-            <p class="description">Estou no oitavo semestre de <span class="highlight">Engenharia Mecatrônica</span> na Universidade de Brasília. </p>
-            <p class="description">Faço estágio na área de <span class="highlight">Análise e Desenvolvimento de Sistemas</span>.</p>
-            <p class="description">Além disso, realizo estudos sobre Machine Learning e Wi-Fi Sensing com foco no ramo de <span class="highlight">Automação Predial</span>.</p>
-            <div id="sobre-box">
-                <p id="title">Hobbies</p>
-                <ion-icon name="football-outline"></ion-icon>
-                <ion-icon name="game-controller-outline"></ion-icon>
-                <ion-icon name="paw-outline"></ion-icon>
-                <ion-icon name="musical-notes-outline"></ion-icon>
-                <ion-icon name="library-outline"></ion-icon>
-            </div>
-            <a href="https://github.com/dekomonte/" id="btn-projects"><ion-icon name="open-outline"></ion-icon><span>Projetos</span></a>
-            <h2 id="skills-section-title">Experiência</h2>
-            <p class="description">Conheça as <span class="highlight">tecnologias</span> e <span class="highlight">ferramentas</span> que já tive contato:</p>
-            <div id="skills-box">
-                <p class="skills-title">Programação</p>
-                <i class="devicon-c-plain colored"></i>
-                <i class="devicon-cplusplus-plain colored"></i>
-                <i class="devicon-python-plain-wordmark colored"></i>
-                <i class="devicon-java-plain-wordmark colored"></i>
-                <i class="devicon-php-plain colored"></i>
-                <i class="devicon-mysql-plain-wordmark colored"></i>
-                <i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
-                <i class="devicon-html5-plain-wordmark colored"></i>
-                <i class="devicon-css3-plain-wordmark colored"></i>
-            </div>
-            <div id="skills-box">
-                <p class="skills-title">Sistemas operacionais</p>
-                <i class="devicon-ubuntu-plain-wordmark colored"></i>
-                <i class="devicon-windows8-plain colored"></i>
-            </div>
-            <div id="skills-box">
-                <p class="skills-title">Diversos</p>
-                <i class="devicon-linkedin-plain-wordmark colored"></i>
-                <i class="devicon-github-original"></i>
-                <i class="devicon-git-plain-wordmark colored"></i>
-                <i class="devicon-latex-original"></i>
-                <i class="devicon-markdown-original"></i>
-                <i class="devicon-matlab-plain colored"></i>
-                <i class="devicon-jupyter-plain-wordmark colored"></i>
-                <i class="devicon-anaconda-original-wordmark colored"></i>
-                <i class="devicon-vscode-plain-wordmark colored"></i>
-                <i class="devicon-spyder-plain-wordmark colored"></i>
-                <i class="devicon-arduino-plain-wordmark colored"></i>
-            </div>
+      <ul id="social-container">
+        <li><a href="https://github.com/dekomonte/" target="_blank" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/in/andressa-sena-a8b26620b/" target="_blank" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      </ul>
 
-        </section>
-    </main>
-    <!--Ion Icons-->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <div id="email-container">
+        <ion-icon name="mail-outline"></ion-icon>
+        <a href="mailto:andressammsena@gmail.com">andressammsena@gmail.com</a>
+      </div>
+    </aside>
+
+    <!-- Conteúdo -->
+    <section id="about-container">
+      <h1 id="name">Andressa Monteiro</h1>
+      <h2 class="section-title">Sobre mim</h2>
+      <p class="description">Estou no oitavo semestre de <span class="highlight">Engenharia Mecatrônica</span> na Universidade de Brasília.</p>
+      <p class="description">Faço estágio na área de <span class="highlight">Análise e Desenvolvimento de Sistemas</span>.</p>
+      <p class="description">Além disso, estudo <span class="highlight">Machine Learning</span> e <span class="highlight">Wi-Fi Sensing</span>, aplicados à <span class="highlight">Automação Predial</span>.</p>
+
+      <div id="sobre-box">
+        <h2 class="section-title">Hobbies</h2>
+        <div class="hobbies-icons">
+          <ion-icon name="football-outline"></ion-icon>
+          <ion-icon name="game-controller-outline"></ion-icon>
+          <ion-icon name="paw-outline"></ion-icon>
+          <ion-icon name="musical-notes-outline"></ion-icon>
+          <ion-icon name="library-outline"></ion-icon>
+        </div>
+      </div>
+
+      <a href="https://github.com/dekomonte/" id="btn-projects">
+        <ion-icon name="open-outline"></ion-icon>
+        <span>Ver Projetos</span>
+      </a>
+
+      <h2 id="skills-section-title">Experiência</h2>
+      <p class="description">Tecnologias e ferramentas que já utilizei:</p>
+
+      <div id="skills-container">
+        <div class="skills-box">
+          <p class="skills-title">Programação</p>
+          <i class="devicon-c-plain colored"></i>
+          <i class="devicon-cplusplus-plain colored"></i>
+          <i class="devicon-python-plain-wordmark colored"></i>
+          <i class="devicon-java-plain-wordmark colored"></i>
+          <i class="devicon-php-plain colored"></i>
+          <i class="devicon-mysql-plain-wordmark colored"></i>
+          <i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+
+        <div class="skills-box">
+          <p class="skills-title">Sistemas Operacionais</p>
+          <i class="devicon-ubuntu-plain-wordmark colored"></i>
+          <i class="devicon-windows8-plain colored"></i>
+        </div>
+
+        <div class="skills-box">
+          <p class="skills-title">Ferramentas & Outros</p>
+          <i class="devicon-github-original"></i>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-latex-original"></i>
+          <i class="devicon-markdown-original"></i>
+          <i class="devicon-matlab-plain colored"></i>
+          <i class="devicon-jupyter-plain-wordmark colored"></i>
+          <i class="devicon-anaconda-original-wordmark colored"></i>
+          <i class="devicon-vscode-plain-wordmark colored"></i>
+          <i class="devicon-arduino-plain-wordmark colored"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Ion Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
