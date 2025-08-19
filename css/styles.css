@@ -165,7 +165,12 @@ body {
 }
 
 .skills-box {
-  flex: 1 1 30%;
+  background: rgba(255, 255, 255, 0.05); /* fundo bem leve/transparente */
+  border-radius: 12px;
+  padding: 16px;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* sombra sutil */
+  transition: transform 0.2s ease, background 0.3s ease;
 }
 
 .skills-title {
@@ -181,9 +186,9 @@ body {
   transition: 0.3s;
 }
 
-.skills-box i:hover {
-  transform: scale(1.2);
-  color: #fff;
+.skills-box:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.1); /* destaque leve no hover */
 }
 
 /* Hobbies */
