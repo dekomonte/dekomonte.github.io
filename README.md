@@ -10,16 +10,17 @@ e Automação/Mecatrônica** e **Desenvolvimento de Software**.
 
 ## ✨ Sobre
 
--   Página desenvolvida em **HTML** e **CSS**\
--   Estrutura simples\
--   Foco em treinamento de HTML/CSS
+-   Página desenvolvida em **HTML** e **CSS**
+-   Estrutura simples
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas  
 
--   HTML5\
--   CSS3
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
+</p>
 
 ------------------------------------------------------------------------
 
@@ -43,7 +44,7 @@ Publicado no **GitHub Pages**:\
 
 ## 📬 Contato
 
--   **LinkedIn:** [Andressa Sena](https://www.linkedin.com/in/andressa-sena-a8b26620b/)\
+-   **LinkedIn:** [Andressa Sena](https://www.linkedin.com/in/andressa-sena-a8b26620b/)
 -   **E-mail:** andressammsena@gmail.com
 
 ------------------------------------------------------------------------
