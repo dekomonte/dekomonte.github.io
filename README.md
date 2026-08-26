@@ -40,4 +40,4 @@ Publicado no **GitHub Pages**:\
 
 ------------------------------------------------------------------------
 
-Feito com 💻, ☕ e dedicação.
+Feito com 💻 e ☕.
